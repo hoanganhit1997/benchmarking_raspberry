@@ -111,7 +111,7 @@ def inference_tf(runs, image, model, output, label=None):
    print ('Saved to ', output)
 
 def main():
-    model = 'detect.tflite'
+    model = 'ssd_mobilenet_v2.tflite'
     label = 'coco_labels.txt'
     input = 'test.jpeg'
     output_file = 'out.jpg'
